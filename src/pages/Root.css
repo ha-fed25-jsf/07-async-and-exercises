@@ -10,6 +10,11 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
+.app {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
 header {
 	background-color: #FEF5E7;
 	padding: 0.7rem 1em 0.1em 1em;
