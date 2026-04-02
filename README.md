@@ -17,5 +17,6 @@
 
 ### Lägg till routing
 1. main.jsx - lägg till RouterProvider
-2. routes.js - lista med route-objekt
-3. pages/Root.jsx, Root.css - root layout
+1. routes.js - lista med route-objekt
+1. pages/Root.jsx, Root.css - root layout
+1. routes för Start och Radio pages

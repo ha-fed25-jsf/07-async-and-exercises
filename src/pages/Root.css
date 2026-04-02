@@ -1,3 +1,61 @@
-.app {
-
+* {
+	box-sizing: border-box;
+	transition: 0.75s all;
 }
+button:hover, a:hover { cursor: pointer; }
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+header {
+	background-color: #FEF5E7;
+	padding: 0.7rem 1em 0.1em 1em;
+	border-bottom: 2px solid orange;
+
+	nav {
+		display: flex;
+		flex-direction: row;
+
+		a {
+			color: black;
+			padding: 0.5em 1em;
+			border: 2px solid orange;
+			border-right: none;
+			margin: 0;
+			text-align: center;
+			display: grid;
+			align-items: center;
+			font-family: Arial;
+			font-weight: bold;
+
+			&:hover, &.active {
+				background-color: orange;
+				cursor: pointer;
+				transform: translateY(-0.4em);
+				box-shadow: 0em 0.4em 0.3em gray;
+			}
+		}
+	}
+}
+
+
+header nav a:first-child {
+	border-radius: 1em 0 0 1em;
+}
+header nav a:last-child {
+	border-radius: 0 1em 1em 0;
+	border-right: 2px solid orange;
+}
+
+/* Main */
+main {
+	background-color: #EAEDED;
+	flex-grow: 1;
+	padding: 1em;
+}
+/* main h2 {
+	margin: 0.2em 0 1em 0;
+} */
