@@ -3,6 +3,7 @@ import RadioPage from "./pages/RadioPage.jsx";
 import RadioZPage from "./pages/RadioZPage.jsx";
 import Root from "./pages/Root.jsx";
 import StartPage from "./pages/StartPage.jsx";
+import SunsetPage from "./pages/SunsetPage.jsx";
 
 export const routeConfig = [
 	{
@@ -28,6 +29,11 @@ export const routeConfig = [
 			{
 				path: '/klocka',
 				Component: ClockPage
+			},
+
+			{
+				path: '/sunset',
+				Component: SunsetPage
 			},
 
 		]

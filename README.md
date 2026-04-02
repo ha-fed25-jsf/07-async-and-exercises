@@ -25,3 +25,9 @@
 1. Designskiss: all JSX i RadioPage.jsx
 1. Flytta ut JSX i Channel.jsx NowPlaying.jsx
 1. Introducera state och props
+
+
+### Async
+Klocka: Demo på setTimeout - gamla tekniken, inte async/await.
+
+Soltid: Demo på fetch med async/await och useEffect.
