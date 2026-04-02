@@ -20,3 +20,8 @@
 1. routes.js - lista med route-objekt
 1. pages/Root.jsx, Root.css - root layout
 1. routes för Start och Radio pages
+
+### Radio-övningen
+1. Designskiss: all JSX i RadioPage.jsx
+1. Flytta ut JSX i Channel.jsx NowPlaying.jsx
+1. Introducera state och props

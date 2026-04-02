@@ -1,0 +1,9 @@
+
+const channelData = [
+	{ id: 1, name: 'P1' },
+	{ id: 2, name: 'P2' },
+	{ id: 3, name: 'P3' },
+	{ id: 4, name: 'P4' },
+]
+
+export { channelData }

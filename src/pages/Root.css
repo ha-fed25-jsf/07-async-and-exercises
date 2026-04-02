@@ -54,7 +54,7 @@ header nav a:last-child {
 main {
 	background-color: #EAEDED;
 	flex-grow: 1;
-	padding: 1em;
+	/* padding: 1em; */
 }
 /* main h2 {
 	margin: 0.2em 0 1em 0;
