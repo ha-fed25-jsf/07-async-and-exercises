@@ -8,6 +8,7 @@ const Root = () => (
 				<NavLink to="/"> Start </NavLink>
 				<NavLink to="/radio"> Radio </NavLink>
 				<NavLink to="/radio-z"> RadioZ </NavLink>
+				<NavLink to="/klocka"> Klocka </NavLink>
 			</nav>
 		</header>
 		<main>

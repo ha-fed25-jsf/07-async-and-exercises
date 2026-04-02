@@ -1,3 +1,4 @@
+import ClockPage from "./pages/ClockPage.jsx";
 import RadioPage from "./pages/RadioPage.jsx";
 import RadioZPage from "./pages/RadioZPage.jsx";
 import Root from "./pages/Root.jsx";
@@ -22,6 +23,11 @@ export const routeConfig = [
 			{
 				path: '/radio-z',
 				Component: RadioZPage
+			},
+
+			{
+				path: '/klocka',
+				Component: ClockPage
 			},
 
 		]
