@@ -10,6 +10,7 @@ const Root = () => (
 				<NavLink to="/radio-z"> RadioZ </NavLink>
 				<NavLink to="/klocka"> Klocka </NavLink>
 				<NavLink to="/sunset"> Soltid </NavLink>
+				<NavLink to="/context"> Djurfakta </NavLink>
 			</nav>
 		</header>
 		<main>

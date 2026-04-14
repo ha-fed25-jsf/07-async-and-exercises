@@ -1,0 +1,17 @@
+.context-page {
+	padding: 0.5em 2em;
+
+	h2, h3 { margin: 0; }
+
+	.zoom {
+		font-size: 125%;
+	}
+
+	.frame {
+		border: 1px solid black;
+		border-radius: 0.5em;
+		padding: 0.3em;
+		box-shadow: 0 0 0.3em 5px aquamarine;
+		/* x y blur spread */
+	}
+}

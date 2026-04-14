@@ -4,6 +4,7 @@ import RadioZPage from "./pages/RadioZPage.jsx";
 import Root from "./pages/Root.jsx";
 import StartPage from "./pages/StartPage.jsx";
 import SunsetPage from "./pages/SunsetPage.jsx";
+import ContextPage from './pages/ContextPage.jsx'
 
 export const routeConfig = [
 	{
@@ -35,6 +36,11 @@ export const routeConfig = [
 				path: '/sunset',
 				Component: SunsetPage
 			},
+
+			{
+				path: '/context',
+				Component: ContextPage
+			}
 
 		]
 	}
