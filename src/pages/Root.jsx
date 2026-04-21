@@ -11,6 +11,7 @@ const Root = () => (
 				<NavLink to="/klocka"> Klocka </NavLink>
 				<NavLink to="/sunset"> Soltid </NavLink>
 				<NavLink to="/context"> Djurfakta </NavLink>
+				<NavLink to="/petshop"> Hundaffär </NavLink>
 			</nav>
 		</header>
 		<main>

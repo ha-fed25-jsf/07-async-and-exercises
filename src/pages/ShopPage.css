@@ -1,0 +1,16 @@
+.shop-page {
+	padding: 0.5em 1em;
+
+	h2 { margin: 0; }
+
+	.shop-list {
+		h3, p { margin: 0; }
+
+		.shop-item {
+			border: 1px solid gray;
+			margin: 0.5em 0;
+			padding: 0.5em;
+			border-radius: 0.3em;
+		}
+	}
+}

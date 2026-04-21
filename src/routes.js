@@ -5,6 +5,7 @@ import Root from "./pages/Root.jsx";
 import StartPage from "./pages/StartPage.jsx";
 import SunsetPage from "./pages/SunsetPage.jsx";
 import ContextPage from './pages/ContextPage.jsx'
+import ShopPage from "./pages/ShopPage.jsx";
 
 export const routeConfig = [
 	{
@@ -40,6 +41,11 @@ export const routeConfig = [
 			{
 				path: '/context',
 				Component: ContextPage
+			},
+
+			{
+				path: '/petshop',
+				Component: ShopPage
 			}
 
 		]
