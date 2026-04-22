@@ -13,6 +13,12 @@ const ShopPage = () => {
 		const action = { type: 'add dog', value: newDog }
 		dispatchDogs(action)
 	}
+	const handleBuyDog = dog => {
+		dispatchDogs({ type: 'buy dog', value: dog })
+	}
+	const handleEditDog = dog => {
+		dispatchDogs({ type: 'edit dog', value: dog })
+	}
 
 	return (
 		<div className="shop-page">
@@ -36,6 +42,8 @@ const ShopPage = () => {
 						<h3> {d.name} </h3>
 						<p> {d.description} </p>
 						<p> {d.price} kr </p>
+						<button onClick={() => handleBuyDog(d)}> Köp </button>
+						<button onClick={() => handleEditDog(d)}> Inflation! </button>
 					</section>
 				))}
 				{/* <section className="shop-item">
